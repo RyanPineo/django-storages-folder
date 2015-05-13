@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='django-storages-folder',
-    version='0.1.2',
+    version='0.1.3',
     description=('django-storages-redux extension to allow separate folders '
                  'for media and static files'),
     long_description=read('README.rst'),
