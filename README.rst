@@ -19,7 +19,9 @@ How To Use
 
 #. Set the static files or media files storage directory
 
-..
+**Example**
+
+.. code:: python
 
     STATICFILES_STORAGE = 'storages_folder.backends.s3boto.StaticStorage'
     STATICFILES_STORAGE_DIR = 'static'
